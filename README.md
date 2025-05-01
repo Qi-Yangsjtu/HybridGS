@@ -1,4 +1,4 @@
 # HybridGS
-Official code of "HybridGS: High-EfficiencyGaussian Splatting DataCompression using Dual-ChannelSparse Representation and PointCloud Encoder"
+Official code of "HybridGS: High-Efficiency Gaussian Splatting Data Compression using Dual-Channel Sparse Representation and Point Cloud Encoder"
 
 Coding is coming soon.
