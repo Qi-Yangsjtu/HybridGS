@@ -1,5 +1,7 @@
 # HybridGS
+## HybridGS: High-Efficiency Gaussian Splatting Data Compression using Dual-Channel Sparse Representation and Point Cloud Encoder (ICML2025)
 
+### Qi Yang, Le Yang, Geert Van Der Auwera, and Zhu Li 
 
 This project is based on the official implementation associated with the paper "3D Gaussian Splatting for Real-Time Radiance Field Rendering", which can be found [here](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/).
 
@@ -102,3 +104,12 @@ The results after HybriGS_coding.py
             -renders: rendered image
             -per_view.json: per view metric
             -results.json: metric results
+
+If you use our code, please cite our paper:
+
+@article{yang2025hybridgs,
+  title={HybridGS: High-Efficiency Gaussian Splatting Data Compression using Dual-Channel Sparse Representation and Point Cloud Encoder},
+  author={Yang, Qi and Yang, Le and Van Der Auwera, Geert and Li, Zhu},
+  journal={arXiv preprint arXiv:2505.01938},
+  year={2025}
+}
