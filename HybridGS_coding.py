@@ -427,7 +427,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="HybridGS coding.")
     parser.add_argument("--Gaussian_Splatting_Path", type = str,
             default='./output/dance/')
-    parser.add_argument("--GPCC_Binary", type = str, default='./GPCCforGS/tmc3.exe')
+    parser.add_argument("--GPCC_Binary", type = str, default='./GPCCforGS/tmc3.exe') # using tmc3 for linux
     parser.add_argument("--Results_Path", type= str, default='./output/bitstream/')
     parser.add_argument("--Iteration", nargs="+", type=int,  default=[50000, 70000])
     parser.add_argument("--Cfg_Path", type = str, default='./GPCCforGS/GPCC_cgfs/xyz_reflectance/')
@@ -451,5 +451,6 @@ if __name__ == "__main__":
         deq_GS_path = HybridGS_dequantization(rec_gs, source_path, iteration)
         render_path = f"render_{iteration}"
         HybridGS_metric(source_path, ground_truth, iteration, deq_GS_path, render_path, render = True, scene=scene)
+
 
 
